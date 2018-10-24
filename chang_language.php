@@ -43,7 +43,7 @@ function setCookie( name, value, expires, path, domain, secure ) {
  <?php  
 foreach($languages as $key=>$value)  
 {  
-  echo '<li><a href="javascript:;" onclick="change_language(\'',$key,'\')"';  
+  echo '<li><a href="javascript://" onclick="change_language(\'',$key,'\')"';  
    echo '>',$language_message[$languages[$key]["name"]],' <img src="images/',$languages[$key]["image"],'" border="0"/></a></li>';  
 }  
 ?>  
